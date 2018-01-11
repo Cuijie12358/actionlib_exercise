@@ -172,6 +172,9 @@ target_link_libraries(averaging_client ${catkin_LIBRARIES})
 add_executable(random_number src/random_number.cpp)
 target_link_libraries(random_number ${catkin_LIBRARIES})
 
+#averaging_client_class
+add_executable(averaging_client_class src/averaging_client_class.cpp)
+target_link_libraries(averaging_client_class ${catkin_LIBRARIES})
 
 
 ## Rename C++ executable without prefix

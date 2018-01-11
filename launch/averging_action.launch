@@ -1,0 +1,18 @@
+<launch>
+  <node
+       pkg="actionlib_tutorials"
+       name="random_number"
+       type="random_number"
+       output="screen"
+       launch-prefix="xterm -e"
+  />
+
+  <node
+       pkg="actionlib_tutorials"
+       name="averaging_client"
+       type="averaging_client"
+       output="screen"
+       respawn="true"
+  /> 
+
+</launch>
